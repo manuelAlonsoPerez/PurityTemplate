@@ -1,0 +1,199 @@
+# Environment and Configuration Files
+.env
+.env.*
+!.env.example
+*.env
+*.env.local
+*.env.development
+*.env.production
+*.env.staging
+
+# Joomla Configuration Files
+configuration.php
+configuration.php.bak
+configuration.php.old
+configuration.php.backup
+
+# Database Files
+*.sql
+*.sql.gz
+*.sql.bak
+*.sql.backup
+database.sql
+backup.sql
+
+# Log Files
+*.log
+logs/
+log/
+administrator/logs/
+administrator/log/
+error.log
+access.log
+debug.log
+joomla.log
+php_errors.log
+
+# Cache and Temporary Files
+cache/
+tmp/
+temp/
+temporary/
+administrator/cache/
+administrator/tmp/
+administrator/temp/
+
+# Session Files
+sessions/
+session/
+administrator/sessions/
+
+# Upload and Media (if containing sensitive data)
+uploads/
+media/uploads/
+images/uploads/
+files/uploads/
+
+# Backup Files
+*.bak
+*.backup
+*.old
+*.orig
+*.save
+*.swp
+*.swo
+*~
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.atom/
+.brackets.json
+*.code-workspace
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# PHP Specific
+composer.phar
+vendor/
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Security and Secret Files
+secrets/
+secrets.json
+secrets.yaml
+secrets.yml
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*.p7b
+*.p7c
+*.p7s
+*.p8
+*.p8e
+*.p8k
+*.p8s
+*.p12
+*.pfx
+*.pem
+*.crt
+*.cer
+*.der
+*.p7b
+*.p7c
+*.p7s
+*.p8
+*.p8e
+*.p8k
+*.p8s
+
+# Password Files
+passwords.txt
+passwords.json
+passwords.yaml
+passwords.yml
+*.password
+*.pass
+*.pwd
+*.secret
+*.secrets
+
+# API Keys and Tokens
+api_keys.txt
+api_keys.json
+api_keys.yaml
+api_keys.yml
+*.api_key
+*.api_key.txt
+*.token
+*.token.txt
+*.access_token
+*.refresh_token
+
+# Database Credentials
+db_credentials.txt
+db_credentials.json
+db_credentials.yaml
+db_credentials.yml
+database_credentials.txt
+database_credentials.json
+database_credentials.yaml
+database_credentials.yml
+
+# Joomla Specific Sensitive Files
+administrator/backup/
+administrator/backups/
+administrator/export/
+administrator/exports/
+administrator/import/
+administrator/imports/
+
+# Virtual Host Configurations (may contain sensitive paths)
+*.local.conf
+*.conf.local
+apache/
+nginx/
+
+# Development and Testing
+test/
+tests/
+testing/
+phpunit.xml
+.phpunit.result.cache
+coverage/
+.nyc_output/
+
+# Build and Distribution
+build/
+dist/
+release/
+releases/
+
+# Package Managers
+package-lock.json
+yarn.lock
+composer.lock
+
+# Joomla Installation Files (if present)
+installation/
+install/
+
+# Custom sensitive files (add your own patterns here)
+# Add any project-specific sensitive files below this line
